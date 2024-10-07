@@ -1,0 +1,35 @@
+{
+  "name": "comp-lit-207-ensemble",
+  "version": "1.0.0",
+  "description": "an ensemble of bots related to literature, theory and digital capitalism",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=dev nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkuzmick/comp-lit-207-ensemble.git"
+  },
+  "keywords": [
+    "ai"
+  ],
+  "author": "mkuzmick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mkuzmick/comp-lit-207-ensemble/issues"
+  },
+  "homepage": "https://github.com/mkuzmick/comp-lit-207-ensemble#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.22.0",
+    "airtable": "^0.12.2",
+    "axios": "^1.7.7",
+    "chokidar": "^4.0.1",
+    "clear": "^0.1.0",
+    "dotenv": "^16.4.5",
+    "learninglab-log": "^1.0.2",
+    "node-cron": "^3.0.3",
+    "openai": "^4.67.1",
+    "yargs": "^17.7.2"
+  }
+}
