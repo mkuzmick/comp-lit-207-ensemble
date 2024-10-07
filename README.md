@@ -15,3 +15,6 @@ SLACK_APP_TOKEN=
 SLACK_LOGGING_CHANNEL=
 ```
 
+## run
+
+`npm run dev`
